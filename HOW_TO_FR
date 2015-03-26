@@ -1,0 +1,25 @@
+Documentation marvin
+
+marvin est un utilitaire d'analyse de fichier jpeg 2000. Il est ecrit en python 2.7 et non compatible avec python 3. Cet outil est multi plateforme.
+
+il existe deux façon d'utiliser marvin :
+
+-sous windows si marvin a ete correctement installe il suffit de lancer la commande « marvin » dans le dossier a analyser et il generera les deux fichiers.
+
+-si marvin n'a pas ete installe ou qu'il est utilise sur des systemes d'exploitations non windows il faut l'utiliser avec la commande :
+python "chemin vers le fichier marvin.py" "chemin vers le dossier a analyser" "chemin vers le fichier de sortie"
+
+
+Installation sous Windows:
+	-installer python 2.7
+	-installer marvin (installer fournit pour windows)
+	-ajouter le chemin vers le dossier exec de marvin dans le path de windows.
+		-aller dans ordinateur
+		-clic droit → proprietes
+		-colonne de gauche → Parametres systeme avances
+		-variables d'environnement
+		-dans la case Variables systeme chercher path et cliquer dessus
+		-modifier
+		-a la fin de la valeur de la variable ajouter ";C:\Program Files (x86)\cdsp\marvin\exec"
+		-cliquer sur ok
+	-marvin est maintenant installe et fonctionnel
