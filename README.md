@@ -4,7 +4,7 @@ digitisation control utility (jpeg2000) / utilitaire de contrôle de numérisati
 This program uses python 2.7 and it is not compatible with python 3.
 
 ## Installation
-You ca use this program by two different way
+You can use this program by two different ways
 
 ### Using Marvin as a script
 Marvin can be used with any system compatible with python 2.7 by invoking the command
@@ -16,7 +16,7 @@ example (with an Unix system):
 python marvin /home/cdsp/img/ /home/cdsp/resports/img_report
 
 ### Using marvin as a program (Windows only)
-On a Windows system you can use the installer (marvin_installer.exe) and follow this process :
+With a Windows system you can use the installer (marvin_installer.exe) and follow this process :
 
 -install python 2.7
 
