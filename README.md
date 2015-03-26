@@ -6,16 +6,16 @@ This program is using python 2.7 and it is not compatible with python 3.
 ## Installation
 You ca yse this program by two different way
 
-### Use Marvin as a script
+### Using Marvin as a script
 Marvin can be used on any system compatible with python 2.7 by invoking the command
 
 python "path to marvin" "path to the folder to analyse" "path to the reports"
 
-example (on a unix system):
+example (on an unix system):
 
 python marvin /home/cdsp/img/ /home/cdsp/resports/img_report
 
-### Use marvin as a program (Windows only)
+### Using marvin as a program (Windows only)
 On a Windows system you can use the installer (marvin_installer.exe) and follow this process :
 
 -install python 2.7
