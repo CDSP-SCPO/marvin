@@ -20,6 +20,6 @@ Installation sous Windows:
 		-variables d'environnement
 		-dans la case Variables systeme chercher path et cliquer dessus
 		-modifier
-		-a la fin de la valeur de la variable ajouter ";C:\Program Files (x86)\cdsp\marvin\exec"
+		-a la fin de la valeur de la variable ajouter ";C:\Program Files (x86)\cdsp\marvin\exec" a la fin
 		-cliquer sur ok
 	-marvin est maintenant installe et fonctionnel
