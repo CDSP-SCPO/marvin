@@ -62,7 +62,7 @@ def find_value_for_path(obj, route):
 	for node_name in route:
 		node = search_node(node, node_name)
 	if node == None:
-		print('node ' + route + ' not found')
+		print('node ' + str(route) + ' not found')
 		return None
 	return node.text
 
