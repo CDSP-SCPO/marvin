@@ -1,1 +1,1 @@
-python "C:\Program Files\cdsp\marvin\marvin.py" "%CD%" "%CD%\marvin"
+python "C:\Program Files (x86)\cdsp\marvin\marvin.py" "%CD%" "%CD%\marvin"
