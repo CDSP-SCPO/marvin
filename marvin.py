@@ -24,7 +24,7 @@ License
 '''
 
 from jpylyzer.jpylyzer import checkOneFile
-from marvinconfig import METADATA_TO_READ, CONFIG, DEBUG, IGNORE_PROBLEM
+from marvinconfig import METADATA_TO_READ, CONFIG, DEBUG, IGNORE_PROBLEM, IMAGE_NAMING_PATTERN
 import sys, csv
 from os import listdir
 from os.path import isfile, join, basename
@@ -132,7 +132,9 @@ def is_file_perfect(file_data):
 def get_short_file_name(file_name):
 	'''Retourne le numero du fichier dans la liasse
 	'''
-	return file_name.split('_')[-1].split('.')[0]
+	separator = IMAGE_NAMING_PATTERN['separator']
+	page_number_location = IMAGE_NAMING_PATTERN['page_number_location']
+	return file_name.split(separator)[page_number_location].split('.')[0]
 
 
 ##################gestion du fichier de fonf dynamique

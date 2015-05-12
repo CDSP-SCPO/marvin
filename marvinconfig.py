@@ -6,9 +6,13 @@ DEBUG = False
 #les sorties CSV et texte peuvent être active en même temps
 CONFIG = {
 	'details_CSV' : True,#active ou non les details sous forme de fichier CSV
-	'details_text' : False,#active ou non les details sous forme de fichier text
+	'details_text' : True,#active ou non les details sous forme de fichier text
 }
 
+IMAGE_NAMING_PATTERN = {
+	'separator' : '_',
+	'page_number_location' : -2,
+}
 
 #tableau des metadonnees a aller chercher et des valeurs attendues
 #les operations supporté sont : 'exact', 'get', 'interval', 'exist'
