@@ -3,6 +3,11 @@
 *#
 
 #
+# Mac files
+#
+.DS_Store
+
+#
 # Python compiled files
 #
 *.pyc
