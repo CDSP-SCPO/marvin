@@ -59,12 +59,12 @@ Congrats, Marvin is now installed !
 
 Here are some [jpylyzer](https://github.com/openpreserve/jpylyzer/blob/master/doc/jpylyzerUserManual.md) explanations for the generated file *sampledetails.csv* :
 
-* **fileName** : return the value of the property /jpylyzer/fileInfo/fileName (ie. Name of the analysed file without its path)
-* **hRescInPixelsPerMeter** : check that the property /jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/hRescInPixelsPerMeter (ie. Horizontal grid resolution, expressed in pixels per meter) exists and is not null
-* **compressionRatio** : check that the property /jpylyzer/properties/compressionRatio (ie. Compression ratio) is included between 8 and 12
-* **transformation** : check that the property /jpylyzer/properties/contiguousCodestreamBox/cod/transformation (ie. Wavelet transformation: “9-7 irreversible” or “5-3 reversible”) is set to '9-7 irreversible'
-* **isValidJP2** : check that the property /jpylyzer/isValidJP2 (ie. Outcome of the JPEG2000 validation) is set to 'True'
-* **iccDescription** : check that the property /jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/icc/description (ie. Profile description, extracted from 'desc' tag) is set to 'ICC Adobe 98'
-* **colourSpecificationBoxMeth** : check that the property /jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/meth (ie. Specification method. Indicates whether colourspace of this image is defined as an enumerated colourspace or using a (restricted) ICC profile.) is set to 'Restricted ICC'
-* **vRescInPixelsPerMeter** : check that the property /jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/vRescInPixelsPerMeter (ie. Vertical grid resolution, expressed in pixels per meter) exists and is not null
-* **imageHeaderBoxc** : check that the property /jpylyzer/properties/jp2HeaderBox/imageHeaderBox/c (ie. Compression type) is set to 'jpeg2000'
+* **fileName** : return the value of the property /jpylyzer/fileInfo/fileName (ie. Name of the analysed file without its path).
+* **hRescInPixelsPerMeter** : check that the property /jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/hRescInPixelsPerMeter (ie. Horizontal grid resolution, expressed in pixels per meter) exists and is not null.
+* **compressionRatio** : check that the property /jpylyzer/properties/compressionRatio (ie. Compression ratio) is included between 8 and 12.
+* **transformation** : check that the property /jpylyzer/properties/contiguousCodestreamBox/cod/transformation (ie. Wavelet transformation: "9-7 irreversible" or "5-3 reversible") is set to '9-7 irreversible'.
+* **isValidJP2** : check that the property /jpylyzer/isValidJP2 (ie. Outcome of the JPEG2000 validation) is set to 'True'.
+* **iccDescription** : check that the property /jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/icc/description (ie. Profile description, extracted from 'desc' tag) is set to 'ICC Adobe 98'.
+* **colourSpecificationBoxMeth** : check that the property /jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/meth (ie. Specification method. Indicates whether colourspace of this image is defined as an enumerated colourspace or using a (restricted) ICC profile.) is set to 'Restricted ICC'.
+* **vRescInPixelsPerMeter** : check that the property /jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/vRescInPixelsPerMeter (ie. Vertical grid resolution, expressed in pixels per meter) exists and is not null.
+* **imageHeaderBoxc** : check that the property /jpylyzer/properties/jp2HeaderBox/imageHeaderBox/c (ie. Compression type) is set to 'jpeg2000'.
