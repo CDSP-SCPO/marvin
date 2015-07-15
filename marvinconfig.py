@@ -63,8 +63,8 @@ METADATA_TO_READ = {
 	'compressionRatio' : {
 		'realPath' : '/jpylyzer/properties/compressionRatio',
 		'operation' : 'interval',
-		'start' : '8',
-		'end' : '12'
+		'start' : '6',
+		'end' : '6.1'
 	},
 }
 
