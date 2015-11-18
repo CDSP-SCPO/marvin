@@ -134,7 +134,18 @@ def get_short_file_name(file_name):
 	'''
 	separator = IMAGE_NAMING_PATTERN['separator']
 	page_number_location = IMAGE_NAMING_PATTERN['page_number_location']
-	return file_name.split(separator)[page_number_location].split('.')[0]
+	page_number_location_bis = IMAGE_NAMING_PATTERN['page_number_location_bis']
+	short_file_name = file_name.split(separator)[page_number_location].split('.')[0]
+	try :
+		int(short_file_name)
+	except :
+		short_file_name = file_name.split(separator)[page_number_location_bis].split('.')[0]
+		try :
+			int(short_file_name)
+		except :
+			short_file_name = '0'
+			print 'this should never happen'
+	return short_file_name
 
 
 ##################gestion du fichier de fonf dynamique
