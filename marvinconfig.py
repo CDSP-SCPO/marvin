@@ -45,7 +45,7 @@ METADATA_TO_READ = {
 	'iccDescription' : {
 		'realPath' : '/jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/icc/description',
 		'operation' : 'exact',
-		'value' : 'ICC Adobe 98'
+		'value' : 'sRGB IEC61966-2.1'
 	},
 	'vRescInPixelsPerMeter' : {
 		'realPath' : '/jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/vRescInPixelsPerMeter',
@@ -63,8 +63,8 @@ METADATA_TO_READ = {
 	'compressionRatio' : {
 		'realPath' : '/jpylyzer/properties/compressionRatio',
 		'operation' : 'interval',
-		'start' : '6',
-		'end' : '6.1'
+		'start' : '3',
+		'end' : '10'
 	},
 }
 
