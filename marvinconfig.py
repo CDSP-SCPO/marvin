@@ -12,6 +12,7 @@ CONFIG = {
 IMAGE_NAMING_PATTERN = {
 	'separator' : '_',
 	'page_number_location' : -2,
+	'page_number_location_bis' : -1
 }
 
 #tableau des metadonnees a aller chercher et des valeurs attendues
