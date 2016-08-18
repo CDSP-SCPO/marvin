@@ -12,6 +12,7 @@ CONFIG = {
 IMAGE_NAMING_PATTERN = {
 	'separator' : '_',
 	'page_number_location' : -2,
+	'page_number_location_bis' : -1
 }
 
 #tableau des metadonnees a aller chercher et des valeurs attendues
@@ -45,7 +46,7 @@ METADATA_TO_READ = {
 	'iccDescription' : {
 		'realPath' : '/jpylyzer/properties/jp2HeaderBox/colourSpecificationBox/icc/description',
 		'operation' : 'exact',
-		'value' : 'ICC Adobe 98'
+		'value' : 'sRGB IEC61966-2.1'
 	},
 	'vRescInPixelsPerMeter' : {
 		'realPath' : '/jpylyzer/properties/jp2HeaderBox/resolutionBox/captureResolutionBox/vRescInPixelsPerMeter',
@@ -63,8 +64,8 @@ METADATA_TO_READ = {
 	'compressionRatio' : {
 		'realPath' : '/jpylyzer/properties/compressionRatio',
 		'operation' : 'interval',
-		'start' : '8',
-		'end' : '12'
+		'start' : '3',
+		'end' : '10'
 	},
 }
 
